@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fabian Serna</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="./styles/main.css" />
+    </head>
+    <body>
+        
+        <header>
+            <ul class="navbar">
+                <li><a href="#me">Acerca de mi</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a class="btn-style" href="#contact">Contáctame</a></li>
+            </ul>
+        </header>
+        <main>
+            <section id="me" class="me">
+                <div class="me-text">
+                    <h2 class="me-title">Mi nombre <br>es <b>Fabian</b></h2>
+                    <p class="me-parag">Soy un desarrollador y hacker profesional <br> con más de 2 años de experiencia</p>
+                    <a href="#" class="btn-style">Descargar Curriculum 
+                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                            width="32.000000pt" height="32.000000pt" viewBox="0 0 32.000000 32.000000"
+                            preserveAspectRatio="xMidYMid meet">
+                            <g transform="translate(0.000000,32.000000) scale(0.100000,-0.100000)"
+                                stroke="none">
+                                <path d="M150 193 c0 -76 0 -76 -20 -58 -11 10 -23 15 -27 11 -6 -6 44 -55 57
+                                -56 13 0 64 49 58 56 -5 4 -17 -1 -28 -11 -20 -18 -20 -18 -20 58 0 45 -4 77
+                                -10 77 -6 0 -10 -32 -10 -77z"/>
+                                <path d="M42 93 l3 -38 115 0 115 0 3 38 c2 21 -1 37 -7 37 -6 0 -11 -13 -11
+                                -30 l0 -30 -100 0 -100 0 0 30 c0 17 -5 30 -11 30 -6 0 -9 -16 -7 -37z"/>
+                            </g>
+                       </svg>
+                       </a>
+                </div>
+                <div class="me-profile">
+                    <div class="me-photo">
+                        <p class="me-photo-badge" ><span>2+</span><br>años de experiencia</p>
+                    </div>
+                </div>
+            </section>
+            <section id="skills">
+                <h3 class="subtitle">Skills</h3>
+
+                <div class="swiper skills">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="skill">
+                                <h4>Desarrollo web</h4>
+                                <p>Tengo conocimientos teóricos y prácticos sobre el desarrollo de cualquier proyecto web</p>
+                                <div class="skill-icons">
+                                    <img src="./assets/icons/html-5.png" alt="">
+                                    <img src="./assets/icons/css.png" alt="">
+                                    <img src="./assets/icons/java-script.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="skill">
+                                <h4>React Js</h4>
+                                <p>He trabajado en diversos proyectos web con el uso de esta libreria de React, como sus extensiones tales como React Hooks</p>
+                                <div class="skill-icons">
+                                    <img src="./assets/icons/react.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="skill">
+                                <h4>Desarrollo de aplicaciones</h4>
+                                <p>He desarrollado diferentes aplicaciones móviles hibridas, con el uso de herramientas como Ionic</p>
+                                <div class="skill-icons">
+                                    <img src="./assets/icons/ionic.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="skill">
+                                <h4>Linux terminal</h4>
+                                <p>Tengo conocimientos teóricos y prácticos de linux, para auditorias de seguridad <br><br></p>
+                                <div class="skill-icons">
+                                    <img src="./assets/icons/linux.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="skill">
+                                <h4>OWASP Top 10</h4>
+                                <p>He auditado proyectos web, con el uso de este estandar de conocimiento en vulnerabilidades más comunes en web</p>
+                                <div class="skill-icons">
+                                    <img src="./assets/icons/owasp.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="skill">
+                                <h4>Python Script</h4>
+                                <p>Desarrollo scripts con python, para automatizar ataques a diferentes aplicaciones web o móviles</p>
+                                <div class="skill-icons">
+                                    <img src="./assets/icons/python.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+            <section id="contact">
+                <form action="POST" class="contact">
+                    <h3 class="subtitle">Contacto</h3>
+                    <input type="text" placeholder="Nombre completo" required>
+                    <input type="email" placeholder="Correo" required>
+                    <textarea name="" id="" rows="10" placeholder="Mensaje" required></textarea>
+                    <button type="submit" class="btn-style">Enviar</button>
+                </form>
+            </section>
+        </main>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script src="./scripts/main.js"></script>
+    </body>
+</html>
